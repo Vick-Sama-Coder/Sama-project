@@ -23,7 +23,7 @@ export default function Cadastro() {
               <input type="email" name="" id="" />
             </div>
           </form>
-          <Link to='./home'>Home</Link>
+          <Link to='/'>Home</Link>
         </section>
       </main>
     </>

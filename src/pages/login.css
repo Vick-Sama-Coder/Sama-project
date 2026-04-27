@@ -4,10 +4,11 @@ main{
     align-items: center;
 }
 .container{
+    padding: 20px;
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +20,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .inputgroup{
     width: 100%;
@@ -30,8 +32,11 @@ input{
     outline-color: #003CFF;
     border: 1px solid #80808075;
     margin: 5px 0;
-    padding: 16px 24px;
+    padding: 20px 24px;
     border-radius: 8px ; 
+}
+h1{
+    text-align: center;
 }
     
 .link {
@@ -45,6 +50,7 @@ input{
     color: #003CFF;
 }
 .btn{
+    width: auto;
     border: none;
     background-color: #003CFF;
     color: white;
