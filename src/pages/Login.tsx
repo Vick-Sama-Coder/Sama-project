@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import './login.css'
 
 export default function Login() {
   return(
@@ -20,7 +19,7 @@ export default function Login() {
                   id="nome" 
                   placeholder='Digite o seu Nome' 
                   required 
-                  minLength={2}
+                  minLength={3}
                    />
               </div>
               <div className="inputgroup">
@@ -32,11 +31,12 @@ export default function Login() {
                 name="senha" 
                 id="senha" 
                 placeholder='Digite a sua senha' 
-                required />
+                required
+                minLength={6} />
               </div>
               <div className="link">
                 <Link to="/pass"><p>
-                  Esqueceu-se da password? Clique aqui!
+                  Esqueceu-se da password?
                   </p></Link>
                 <p>Não tem conta? <Link to="/cadastro">Inscreva-se!</Link> </p>
               </div>

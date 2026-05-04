@@ -1,13 +1,9 @@
 import { Link } from "react-router-dom"
-import "./login.css"
 
 
 export default function Cadastro() {
   return(
     <>
-    <style>
-      
-    </style>
       <main>
 
         <section className="container">
